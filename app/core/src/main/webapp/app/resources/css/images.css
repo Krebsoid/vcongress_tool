@@ -1,0 +1,64 @@
+.pb_image {
+    background-image: url("../themes/images/sciser/patrick_vcongress.jpg") !important;
+}
+.mb_image {
+    background-image: url("../themes/images/sciser/malte_vcongress.jpg") !important;
+}
+.dw_image {
+    background-image: url("../themes/images/sciser/daniel_vcongress.jpg") !important;
+}
+
+.dw-websites {
+    background-image: url("../themes/images/sciser/dwwebsiteslogo.jpg") !important;
+}
+
+.abstract-wizard-step-1 {
+    background-image: url("../themes/images/sciser/abstract_step_1.png") !important;
+}
+
+.abstract-wizard-step-2 {
+    background-image: url("../themes/images/sciser/abstract_step_2.png") !important;
+}
+
+.abstract-wizard-step-3 {
+    background-image: url("../themes/images/sciser/abstract_step_3.png") !important;
+}
+
+.registration-wizard-step-1 {
+    background-image: url("../themes/images/sciser/registration_step_1_second_version.png") !important;
+}
+
+.registration-wizard-step-2 {
+    background-image: url("../themes/images/sciser/registration_step_2_second_version.png") !important;
+}
+
+.registration-wizard-step-3 {
+    background-image: url("../themes/images/sciser/registration_step_3_second_version.png") !important;
+}
+
+.registration-wizard-step-4 {
+    background-image: url("../themes/images/sciser/registration_step_4_second_version.png") !important;
+}
+
+.registration-wizard-step-5 {
+    background-image: url("../themes/images/sciser/registration_step_5_second_version.png") !important;
+}
+
+.v-congress {
+    background-image: url("../themes/images/sciser/vcongress_title_small.png") !important;
+    background-color: #E0E0E0;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.congress-logo {
+    background-image: url("../themes/images/sciser/logo_example.jpg") !important;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.europa_foerdert_niedersachsen {
+    background-image: url("../themes/images/sciser/eu_foerdert_niedersachsen.png") !important;
+    width: 130px;
+    height: 93px;
+}

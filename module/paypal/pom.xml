@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>phanative-parent</artifactId>
+        <groupId>com.phanative</groupId>
+        <version>2.0</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>module-paypal</artifactId>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>1.9</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <sei>PayPalAPIInterfaceService</sei>
+                    <xadditionalHeaders>true</xadditionalHeaders>
+                    <packageName>com.phanative.module.paypal</packageName>
+                    <target>2.0</target>
+                    <extension>true</extension>
+                    <sourceDestDir>${project.build.directory}/generated-sources/jaxws</sourceDestDir>
+                    <wsdlUrls>
+                        <wsdlUrl>https://www.paypalobjects.com/wsdl/PayPalSvc.wsdl</wsdlUrl>
+                    </wsdlUrls>
+                </configuration>
+
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

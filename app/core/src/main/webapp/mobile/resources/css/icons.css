@@ -1,0 +1,30 @@
+
+
+.users3_32x32 {
+    background-image: url("../icons/32x32/users3.png") !important;
+}
+
+.payment_32x32 {
+    background-image: url("../icons/32x32/money2.png") !important;
+}
+
+.login_24x24 {
+    background-image: url("../icons/24x24/key1.png") !important;
+}
+
+.abstract_32x32 {
+    background-image: url("../icons/32x32/note.png") !important;
+}
+
+
+.warning_32x32 {
+    background-image: url("../icons/32x32/warning.png") !important;
+}
+
+.id_card_32x32 {
+    background-image: url("../icons/32x32/id_card.png") !important;
+}
+
+.date-time_32x32 {
+    background-image: url("../icons/32x32/date-time.png") !important;
+}

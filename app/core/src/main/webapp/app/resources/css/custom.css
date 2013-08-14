@@ -1,0 +1,200 @@
+#NoJavaScriptNotification {
+    font-family: tahoma,arial,verdana,sans-serif;
+    color: #454545;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 600px;
+    margin-left: -300px;
+
+    text-align: left;
+    line-height: 32px;
+    padding: 15px;
+    border: 1px dashed #333;
+    background-color: #eee;
+}
+
+.inline {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+#loadingScreen {
+    font-family: tahoma,arial,verdana,sans-serif;
+    color: #454545;
+
+    position:absolute;
+    left:0px;
+    top:0px;
+    height:100%;
+    width:100%;
+}
+
+h1 {
+    font-size: 14px
+}
+
+A:link {
+    text-decoration: none; color: #040474;
+}
+A:visited {
+    text-decoration: none; color: #040474;
+}
+A:hover {
+    text-decoration: underline; color: #454545;
+}
+
+abbr[title] {
+    cursor: help;
+    border-bottom: 1px dotted #999;
+}
+
+table.dashboard {
+    border-top:2px solid #E0E0E0;;
+    border-right:2px solid #E0E0E0;;
+    border-left:2px solid #E0E0E0;
+    border-collapse:collapse;
+}
+
+table.dashboard td, table.dashboard th {
+    border-bottom:2px solid #E0E0E0;
+    background: #F7F7F7;
+    height: 50px;
+}
+
+.x-body, .x-panel-body-default, .x-form-field, .x-form-display-field {
+    color: #454545;
+}
+
+.x-form-empty-field, textarea.x-form-empty-field {
+    color: gray;
+}
+
+.v-navigation-background {
+    background-color: #E0E0E0;
+}
+
+.ux-notification-icon-information {
+    background-image: url('../themes/images/icon/16x16/icon-info.gif');
+}
+
+.ux-notification-icon-error {
+    background-image: url('../themes/images/icon/16x16/icon-error.gif');
+}
+
+.ux-notification-icon-warn {
+    background-image: url('../themes/images/icon/16x16/warning.png');
+}
+
+.ux-notification-light .x-window-header {
+    background-color: transparent;
+}
+
+.ux-notification-light {
+    background-color: white;
+}
+
+.ux-notification-light .x-window-body {
+    text-align: center;
+    padding: 15px 5px 18px 5px;
+    width: 200px;
+    background-color: transparent;
+    border: 0 solid white;
+}
+
+/*
+ * RangeMenu Styles
+ */
+
+.ux-rangemenu-icon {
+    display: block;
+    height: 16px;
+    background: no-repeat 5px center;
+}
+
+.ux-rangemenu-gt {
+    background-image: url(../themes/images/icon/16x16/greater_than.png) !important;
+}
+
+.ux-rangemenu-lt {
+    background-image: url(../themes/images/icon/16x16/less_than.png) !important;
+}
+
+.ux-rangemenu-eq {
+    background-image: url(../themes/images/icon/16x16/equals.png) !important;
+}
+
+.selected_view {
+    background-color: #EEEEEE;
+}
+
+.mouseover_view {
+    background-color: #EFEFEF;
+    cursor: pointer;
+}
+
+div.author.selected_view div.icon{
+    background-image: url("../themes/images/icon/100x100/writer_male_dark_50.png") !important;
+}
+
+div.author div.icon{
+    background-image: url("../themes/images/icon/100x100/writer_male_light_50.png") !important;
+}
+
+div.author.selected_view div.presenter{
+    background-image: url("../themes/images/icon/100x100/presenter_star_dark_50.png") !important;
+}
+
+div.author div.presenter{
+    background-image: url("../themes/images/icon/100x100/presenter_star_light_50.png") !important;
+}
+
+.grid-participant-active {
+    text-decoration:none;
+    color: #454545;
+}
+.grid-participant-inactive {
+    text-decoration:line-through;
+    color : #BBBBBB;
+}
+
+/* Styling of global error indicator */
+.form-error-state {
+    padding-left: 20px;
+    height: 32px;
+    line-height: 32px;
+    background: no-repeat 0 0;
+    cursor: pointer;
+}
+.form-error-state-invalid {
+    color: #C30;
+    background-image: url(../../resources/themes/images/icon/32x32/delete2.png);
+}
+.form-error-state-valid {
+    color: #090;
+    background-image: url(../../resources/themes/images/icon/32x32/check2.png);
+}
+
+/* Error details tooltip */
+.errors-tip .error {
+    font-style: italic;
+}
+
+.close-btn {
+    border: 2px solid #c2c2c2;
+    position: relative;
+    padding: 1px 5px;
+    top: -20px;
+    background-color: #605F61;
+    border-radius: 20px;
+}
+
+.close-btn span {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.0">
+    <deployment>
+        <!--
+                <exclusions>
+                    <module name="org.hibernate.validator"/>
+                </exclusions>
+        -->
+
+        <dependencies>
+            <module name="org.jboss.ws.cxf.jbossws-cxf-client" services="export"/>
+            <module name="javax.mail.api" services="export"/>
+            <module name="org.jboss.logmanager"/>
+
+            <module name="org.codehaus.jackson.jackson-core-asl"/>
+            <module name="org.codehaus.jackson.jackson-jaxrs"/>
+            <module name="org.codehaus.jackson.jackson-mapper-asl"/>
+            <module name="org.codehaus.jackson.jackson-xc"/>
+
+            <module name="com.google.guava"/>
+            <module name="org.joda.time"/>
+
+            <module name="org.apache.httpcomponents"/>
+            <module name="org.apache.commons.beanutils"/>
+            <module name="org.apache.commons.collections"/>
+            <module name="org.apache.commons.io"/>
+            <module name="org.apache.commons.lang"/>
+            <module name="org.apache.commons.codec"/>
+            <module name="org.apache.velocity"/>
+
+            <module name="org.dom4j"/>
+
+            <module name="org.apache.xerces"/>
+
+            <module name="org.slf4j"/>
+            <module name="org.slf4j.impl"/>
+        </dependencies>
+    </deployment>
+</jboss-deployment-structure>

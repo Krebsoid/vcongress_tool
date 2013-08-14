@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>phanative-parent</artifactId>
+        <groupId>com.phanative</groupId>
+        <version>2.0</version>
+        <relativePath>../../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>jar</packaging>
+    <artifactId>module-core</artifactId>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.jboss.seam.international</groupId>
+            <artifactId>seam-international</artifactId>
+            <version>3.1.0.Final</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.seam.international</groupId>
+            <artifactId>seam-international-api</artifactId>
+            <version>3.1.0.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.seam.validation</groupId>
+            <artifactId>seam-validation</artifactId>
+            <version>3.1.0.Final</version>
+            <scope>runtime</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.hibernate</groupId>
+                    <artifactId>hibernate-validator</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.seam.validation</groupId>
+            <artifactId>seam-validation-api</artifactId>
+            <version>3.1.0.Final</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

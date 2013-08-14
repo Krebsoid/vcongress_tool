@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://java.sun.com/xml/ns/persistence"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+        version="2.0">
+
+    <persistence-unit name="vcongress">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <jta-data-source>java:jboss/datasources/vcongress</jta-data-source>
+
+        <class>com.phanative.module.persistence.model.LocaleString</class>
+
+        <class>com.phanative.module.security.model.identity.IdentityObject</class>
+        <class>com.phanative.module.security.model.identity.IdentityObjectType</class>
+        <class>com.phanative.module.security.model.identity.IdentityObjectAttribute</class>
+        <class>com.phanative.module.security.model.identity.IdentityObjectCredential</class>
+        <class>com.phanative.module.security.model.identity.IdentityObjectCredentialType</class>
+        <class>com.phanative.module.security.model.identity.IdentityObjectRelationship</class>
+        <class>com.phanative.module.security.model.identity.IdentityObjectRelationshipType</class>
+
+        <class>com.phanative.module.security.model.identity.IdentityPermission</class>
+        <class>com.phanative.module.security.model.identity.IdentityRoleName</class>
+
+        <class>com.phanative.module.security.model.RecognizedAction</class>
+        <class>com.phanative.module.security.model.ActionParam</class>
+
+
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.jdbc.batch_size" value="50"/>
+            <property name="hibernate.connection.autocommit" value="false"/>
+
+            <property name="jadira.usertype.autoRegisterUserTypes" value="true"/>
+
+        </properties>
+    </persistence-unit>
+
+</persistence>
